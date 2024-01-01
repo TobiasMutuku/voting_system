@@ -1,0 +1,148 @@
+body {
+    background-color: #cbd5e1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.login-con {
+    margin-top: 50px;
+    margin-left: auto;
+    padding: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.voting-con {
+    margin-bottom: 60px
+}
+/* ====css for help center==== */
+.help_center{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.title{
+    text-align: center;
+}
+.overview{
+    width: 80vw;
+    margin-top: 3rem;
+    padding-top: 4rem;
+}
+
+.help_text{
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    padding: 1rem 0;
+
+}
+.overview h2{
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.overview h2::before {
+    content: "";
+    position: absolute;
+    bottom: -0.7rem;
+    right: 3rem;
+    width: 2rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color:#000 ;
+  }
+.overview div li {
+    font-size: 2rem;
+}
+/* contact page */
+
+
+.contact_us_page{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    
+}
+.contact_form{
+    width: 45rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+}
+.contact_group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type="submit"] {
+    background-color: rgb(84, 188, 223);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+input[type="submit"]:hover {
+    background-color: lightblue;
+    opacity: 0.62;
+}
+/* ====login==== */
+.form_body{
+    background-color: #c3edf7;
+    display:flex ;
+    justify-content: center;
+}
+.login{
+   width:42rem; 
+   display: flex;
+   flex-direction:column;
+   margin-top: 2rem;
+   margin: 0 1rem;
+
+}
+.form_wrapper{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 3px solid rgb(50, 191, 238);
+
+}
+.system-info{
+    padding: 1rem;
+}
+/*eye */
+.input_append{
+    display: flex;
+    justify-content: right;
+    place-items: center;
+    margin-right: 2rem;
+    position: relative;
+    z-index: 10;
+}
+.input-group-text{
+    position: absolute;
+    bottom: 3px;
+    display: inline-block;
+   
+}
